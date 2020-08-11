@@ -9,7 +9,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 		features = "src\\main\\java\\features\\Get_instructions_API.feature"
         ,glue={"step"},
-        plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
+        plugin = { "com.cucumber.listener.ExtentCucumberFormatter:test-output/cucumber-reports/report.html"},
  //       plugin = { "pretty" },
         monochrome = true
         )
