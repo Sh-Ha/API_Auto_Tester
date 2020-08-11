@@ -1,0 +1,1 @@
+Its a quick Data driven API automation framework based on BDD principles .Framework Flow : Feature Files -> Step Drivers -> REST Assured -> Data Driver -> Runners -> TestNG parallel run->Extend Report
