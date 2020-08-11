@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">3</td><td class="num">6,316</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">runners.GET_City_Users_API_Step_Runner</td><td><a href="#m0">feature</a></td><td rowspan="1">1597111707773</td><td rowspan="1">525</td></tr><tr class="failedodd"><td rowspan="1">runners.Get_All_Users_API_Step_Runner</td><td><a href="#m1">feature</a></td><td rowspan="1">1597111704082</td><td rowspan="1">3400</td></tr><tr class="failedeven"><td rowspan="1">runners.Get_User_API_Step_Runner</td><td><a href="#m2">feature</a></td><td rowspan="1">1597111709153</td><td rowspan="1">957</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">runners.Get_instructions_API_Step_Runner</td><td><a href="#m3">feature</a></td><td rowspan="1">1597111708353</td><td rowspan="1">745</td></tr></tbody></table><h2>Test</h2><h3 id="m0">runners.GET_City_Users_API_Step_Runner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Test GET City Users API</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: The following asserts failed:
+	Verifying Text expected [true] but found [false],
+	Verifying Text expected [true] but found [false]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+Caused by: java.lang.AssertionError: The following asserts failed:
+	Verifying Text expected [true] but found [false],
+	Verifying Text expected [true] but found [false]
+	at step.GET_City_Users_API_Step_Driver.gather_report(GET_City_Users_API_Step_Driver.java:127)
+	at ?.And Test Get City Users API Gather all soft /hard asertion report(src/main/java/features/GET_City_Users_API.feature:8)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">runners.Get_All_Users_API_Step_Runner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Test Get_All_Users API</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: The following asserts failed:
+	Verifying JSON Path value list expected [21] but found [false],
+	Verifying JSON Path value list expected [127.0.0.1] but found [false]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+Caused by: java.lang.AssertionError: The following asserts failed:
+	Verifying JSON Path value list expected [21] but found [false],
+	Verifying JSON Path value list expected [127.0.0.1] but found [false]
+	at step.Get_All_Users_API_Step_Driver.gather_report(Get_All_Users_API_Step_Driver.java:124)
+	at ?.And Test Get All Users API Gather all soft /hard asertion report(src/main/java/features/Get_All_Users_API.feature:8)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">runners.Get_User_API_Step_Runner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Test Get User API</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: The following asserts failed:
+	Verifying JSON Path value expected [5] but found [4]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+Caused by: java.lang.AssertionError: The following asserts failed:
+	Verifying JSON Path value expected [5] but found [4]
+	at step.Get_User_API_Step_Driver.Get_user_gather_report(Get_User_API_Step_Driver.java:118)
+	at ?.And Test Get User API Gather all soft /hard asertion report(src/main/java/features/Get_User_API.feature:8)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">runners.Get_instructions_API_Step_Runner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Test Get_instructions API</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
